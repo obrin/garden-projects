@@ -1,0 +1,4 @@
+.garden:
+  moduleName: httpbin
+  projectName: sample
+  version: v-d283d7d067

@@ -1,0 +1,10 @@
+
+[2021-06-20T12:50:02.319Z] A new version of Garden has been released (0.12.23).
+Please run "brew upgrade garden-cli" to upgrade to the latest version.
+
+[2021-06-20T12:50:05.694Z] -> Created new module config in garden.yml
+
+[2021-06-20T12:50:05.720Z] Cannot read property 'base' of undefined
+
+[2021-06-20T12:50:05.721Z] 
+See error.log for detailed error message

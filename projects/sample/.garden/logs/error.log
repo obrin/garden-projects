@@ -1,0 +1,130 @@
+
+[2021-06-20T12:55:35.827Z] Could not read cluster from kubeconfig for context kind-kind
+
+Error Details:
+
+context: kind-kind
+config:
+  contexts:
+    - cluster: microk8s-cluster
+      name: microk8s-pi
+      user: pi-admin
+    - cluster: nuc-cluster
+      name: nuc
+      user: nuc-admin
+      namespace: default
+  clusters:
+    - caData: >-
+        LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURBVENDQWVtZ0F3SUJBZ0lKQU13Tjl0WmhpUGt4TUEwR0NTcUdTSWIzRFFFQkN3VUFNQmN4RlRBVEJnTlYKQkFNTURERXdMakUxTWk0eE9ETXVNVEFlRncweU1EQTNNekF3TURFeU5EWmFGdzB6TURBM01qZ3dNREV5TkRaYQpNQmN4RlRBVEJnTlZCQU1NRERFd0xqRTFNaTR4T0RNdU1UQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQCkFEQ0NBUW9DZ2dFQkFNSTJEaWs4dWx4bnU1amtSOS80Z21weExjdjdJWWFBTU1ReUNEVURlRzlkbmJpUDdOc1cKcDRJd0QvbzJLRVBhTlBWZmxyK3hPY0ZseXVqdlV4dmZsUjQ1b1ZnUWlZTGh2RmhSNDRtWHpSM1M4YmNWbTA3WApCTHB0azNHdDJJY01YaDBtdnRtSnFkd1RLQldOSHFuODl1SGxBaVAxSDRiTVFMTVo1bG9XRXpieXYzbVc2RUt4CjZ2bUZEN0ZSVC9uejRKT1F4ZjI3eFVjWUR6RU1ETVpjeEpBaEdxZ2kwRnRYU1l0MFY3QzM3R1FtcGpCUnRYNUMKenlpL2NDZ0xqa2ZUL1AwaFVMdVZyUFR1M0FWVS9GMEJvNkdZckFBdXR3QWduVDZtSUYwNUVRZDZ5anpaNVV2bwpKUWZGTC94NnZ3enNlajg3UWRIcmlSeld3NTNRU2VTZ09WOENBd0VBQWFOUU1FNHdIUVlEVlIwT0JCWUVGQWFQClZyZERjVjhSeDQxUzhEc3BFTWRQQXJBY01COEdBMVVkSXdRWU1CYUFGQWFQVnJkRGNWOFJ4NDFTOERzcEVNZFAKQXJBY01Bd0dBMVVkRXdRRk1BTUJBZjh3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUw2Z1hCQ3ZFbVA2U0NNNQp3L1o0U2R5QU5rNVNtNjYxcndDS2tHSnFmM3k2WER1RllmZjhhQnlQYlZLRXhoT3o3VmxEY2MwcFhsY0lERkVqCmtQRGt0a1F0RVhFMGtvRHZsY3VqN21iYjFwcWk1WHVRbTRralc3SGc0Q0JkK1FsamUwZzh3TVZnVUUyTm9pdnQKUUR4RkJwd053d3dUQzIwMGhQSTJ0Nm4vSzNaTS9zaGJkNVhQTlVhMitKVGRoUEJqNWN1U0FXODFycTkyNXV1MQpBTU5oNlkzU25zbXdEUlhQSmY5aXM1bnAxWWhtaWVEdDFlUmtSd21SUC93TmRmUVRqZGtWMmgwa09rR1Zzb1V2CnNDazVBVmxYVzYwWVBLUUhZYUozN2Y1MkZEOEdrZ0YwOU5xMzhoeStVUGlxSmVwWlErNEU3MHY0T09Jc3VGaDYKNGN4bitqbz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+      name: microk8s-cluster-pi
+      server: 'https://192.168.178.45:16443'
+      skipTLSVerify: false
+    - caData: >-
+        LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURBVENDQWVtZ0F3SUJBZ0lKQU80YUlGSDMwWHNtTUEwR0NTcUdTSWIzRFFFQkN3VUFNQmN4RlRBVEJnTlYKQkFNTURERXdMakUxTWk0eE9ETXVNVEFlRncweU1EQTRNamN5TWpNNE16aGFGdzB6TURBNE1qVXlNak00TXpoYQpNQmN4RlRBVEJnTlZCQU1NRERFd0xqRTFNaTR4T0RNdU1UQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQCkFEQ0NBUW9DZ2dFQkFLcHVERE9CMGtpU3ZHVGJZWDhEMStHaHdmNVZrTzVTU1RzZk0yZVliVVcvM1pQUlc0cEcKWXo5SndHZlNNVE90WDBCTjNsTW54TFV5TThpa1U2ZUU2UGhBM2Q0bytzWDNNTTZndmVkd2Y3WE1jTU9FZnhVeQpnRU4xUGw1ODUwOHR3QVlQcFNXbnNETkdrenFtNEczTWc3eWQrbEtiVjlwQlR6OWphTVlzU1FlUTdwUTlaZk5yCnk5YWRUY216SGlhRlc5UHBvSTVmTDR5K2Zkc2dqTkgzVCs1QThHZTlEdXA3QVA2dkZDQWUvNjlyUXBjUHN6Y1IKVXIreFVjd3lOVUE2K1JORmw0Mk92ZmFzTnNXTEFWU1hVZlJQeU5qNkg1aUJmQ20zcU16YXZ1eDhEdklVT1h6Nwp5aDZCa0lPcUc4dXdYMXJEUjZtbWFYc0UxYktEakU2NjFra0NBd0VBQWFOUU1FNHdIUVlEVlIwT0JCWUVGQ0NkCjljQjN0TDhiSWE0RmM5UjBHZFlxb2htRU1COEdBMVVkSXdRWU1CYUFGQ0NkOWNCM3RMOGJJYTRGYzlSMEdkWXEKb2htRU1Bd0dBMVVkRXdRRk1BTUJBZjh3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUFzVm1qRFAzem1QbnZNOAoyVFdTTHJ5MGlJSzF4OU9CdjZGcnJweG9rNmhsWm50Wjh3M0ZvMmhDVmlDVWppOTEvd245SmFrRUN0N2M5WEdKCkE0c1hRZDJoYWRqbnJoazBndEVDTjVXaXlQQmVoaFBzUXFpK0djUFdqSkUwQXhNb29HMVR2NjZMelBHd0RuVEcKVlNxNXk1WUdTTkJaVHB6Kzlmbll0cnVUaGlNalViVG92MmZJc3AwcDdCVHB4amZUZ04rWm1qNmxKTEs4VkVhKwp2V3I4RnZWZXA1eW1WVXZMRVZQalhxc3U5RGhkR3BSQmNKZkpEYWFmRlQrRzFGeTB6MVU2VEtlZ1Jmd2IzOUl3CmRNNFUwYjFBQldicUh0Zm9obW13TjBMRWRGTDJDSmw2MFlKMHBiTFhtSGtvSm1heXltKzRhNSsxUVloSlVqbEYKTjdKUkRhbz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+      name: nuc-cluster
+      server: 'https://192.168.178.51:16443'
+      skipTLSVerify: false
+  users:
+    -
+      name: nuc-admin
+      token: SEJDdVovMi9zQ3RPTWhhN0F6S0xUOUxWd0hxSE4xN0pSMmVaODNab0lWcz0K
+    -
+      name: pi-admin
+      token: Qm5WNHpHMVAzWGM1WVNiN1JEQWlRSlRXdTNZVmtoVmtmL3ZBQkQrcHNxVT0K
+  currentContext: kind-kind
+
+
+[2021-06-20T12:55:35.838Z] Failed resolving one or more providers:
+- local-kubernetes
+
+Error Details:
+
+rawConfigs:
+  - name: exec
+  - name: container
+  - name: templated
+  - name: local-kubernetes
+    environments:
+      - local
+    context: kind-kind
+    dependencies: []
+taskResults:
+  resolve-provider.exec:
+    type: resolve-provider
+    key: resolve-provider.exec
+    name: exec
+    description: resolving provider exec
+    completedAt: 2021-06-20T12:55:35.053Z
+    batchId: df7fc63b-f94d-447d-b0e3-d9dac43e6d4a
+    output:
+      name: exec
+      dependencies: {}
+      moduleConfigs: []
+      config:
+        name: exec
+        dependencies: []
+        path: /Users/jordanyong/code/obrin/garden-projects/projects/sample
+      status:
+        ready: true
+        outputs: {}
+      dashboardPages: []
+    dependencyResults: {}
+    version: 0.12.22
+    startedAt: 2021-06-20T12:55:35.037Z
+  resolve-provider.container:
+    type: resolve-provider
+    key: resolve-provider.container
+    name: container
+    description: resolving provider container
+    completedAt: 2021-06-20T12:55:35.054Z
+    batchId: 19162355-b386-44e7-b4e0-88185cee5fd6
+    output:
+      name: container
+      dependencies: {}
+      moduleConfigs: []
+      config:
+        name: container
+        dependencies: []
+        path: /Users/jordanyong/code/obrin/garden-projects/projects/sample
+      status:
+        ready: true
+        outputs: {}
+      dashboardPages: []
+    dependencyResults: {}
+    version: 0.12.22
+    startedAt: 2021-06-20T12:55:35.038Z
+  resolve-provider.local-kubernetes:
+    type: resolve-provider
+    description: resolving provider local-kubernetes
+    key: resolve-provider.local-kubernetes
+    name: local-kubernetes
+    startedAt: 2021-06-20T12:55:35.054Z
+    completedAt: 2021-06-20T12:55:35.816Z
+    batchId: 19162355-b386-44e7-b4e0-88185cee5fd6
+    version: 0.12.22
+  resolve-provider.templated:
+    type: resolve-provider
+    key: resolve-provider.templated
+    name: templated
+    description: resolving provider templated
+    completedAt: 2021-06-20T12:55:35.053Z
+    batchId: 6ebce3bc-bb8e-4885-8473-dd7077f9690a
+    output:
+      name: templated
+      dependencies: {}
+      moduleConfigs: []
+      config:
+        name: templated
+        path: /Users/jordanyong/code/obrin/garden-projects/projects/sample
+      status:
+        ready: true
+        outputs: {}
+      dashboardPages: []
+    dependencyResults: {}
+    version: 0.12.22
+    startedAt: 2021-06-20T12:55:35.039Z
+messages:
+  - >-
+    - local-kubernetes: Could not read cluster from kubeconfig for context
+    kind-kind
+
